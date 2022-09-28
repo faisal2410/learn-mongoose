@@ -5,13 +5,13 @@ exports.createTour=async(req,res)=>{
         console.log(result)    
         res.status(200).json({
           status: "success",
-          messgae: "Data inserted successfully!",
+          messgae: "✔ Data inserted successfully!",
           data: result,
         })
     }catch(error){
         res.status(400).json({
             status: "fail",
-            message: " Data is not inserted ",
+            message: "😥 Data is not inserted ",
             error: error.message,
           })
     }

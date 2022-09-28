@@ -1,4 +1,4 @@
-const Tour=require("../models/tourModelDemo")
+const Tour=require("../models/tourDemo")
 
 exports.createTourService=async()=>{
    
